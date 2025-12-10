@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Expo JS Template",
-    "slug": "expojs-template",
+    "name": "Modul Praktikum React Native",
+    "slug": "modul-praktikum-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,20 +10,25 @@
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#3498db"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "ac.id.unismuh.ft.lab.praktikum"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#3498db"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "ac.id.unismuh.ft.lab.praktikum"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "author": "Laboratorium Informatika - UNISMUH Makassar"
     }
   }
 }
